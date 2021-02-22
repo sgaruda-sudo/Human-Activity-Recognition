@@ -11,21 +11,21 @@
     * [HAPT Dataset](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) (Training set- Users(1-21), Test set-Users(22-27), validation set-Users(28-30)
     * Data Denoising
     * Z Score normalization
-2. [Model Architecture](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/models/model_arch.py)
-3. [Training Routine](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L50)
+2. [Model Architecture](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/models/model_arch.py)
+3. [Training Routine](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/main.py#L50#L50)
 4. Model CallBacks:
-    * [Check point Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L33) - For saving model at desired interval(epoch frequency)
-    * [Tensorboard Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L25) - For logging training stats,Profiling
-    * [CSV Logger Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L40) - To save training logs in a csv file
+    * [Check point Callback](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/main.py#L33) - For saving model at desired interval(epoch frequency)
+    * [Tensorboard Callback](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/main.py#L25) - For logging training stats,Profiling
+    * [CSV Logger Callback](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/main.py#L40) - To save training logs in a csv file
 6.Hyper parameter tuning
-7. [Evaluation](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L58)
-    * [Confusion Matrix](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/tree/master/HAR#confusion-matrix-in-)
-    * [Classification Report](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/tree/master/HAR#classification-report)
-8. [Visualization](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/test_data.png)
+7. [Evaluation](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/main.py#L58)
+    * [Confusion Matrix](https://github.com/sgaruda-sudo/Human-Activity-Recognition#confusion-matrix-in-)
+    * [Classification Report](https://github.com/sgaruda-sudo/Human-Activity-Recognition#classification-report)
+8. [Visualization](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/test_data.png)
 ## Outputs from several stages of project
 * **Peek into a sample set from Training Data:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/sample_train.png" /> 
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/sample_train.png" /> 
 	</p>
 	<p align="center">
 	    <em>Processed and Augmented Images</em>
@@ -33,16 +33,16 @@
 	
 * **Model Architecture:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/model_architecture.png" />
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/model_architecture.png" />
 	</p>
 	<p align="center">
 	    <em>Model Architecture</em>
 	</p>
 * **Training Results:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/epoch_accuracy.svg" height="200" />
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/epoch_loss.svg" height="200"/>
-	  <img src=https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/legend.PNG />
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/epoch_accuracy.svg" height="200" />
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/epoch_loss.svg" height="200"/>
+	  <img src=https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/legend.PNG />
 	</p>
 <p align="center">
     <em><b>(a) Epochs vs Accuracy &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp;(b) Epochs vs Loss</b></em>
@@ -117,7 +117,7 @@
 	* #### Test accuracy - 90.35%
 	* #### Confusion Matrix (in %):
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/normalized_cm.png" width="600" height="580"/>
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/normalized_cm.png" width="600" height="580"/>
 	</p>
 
 	* #### Classification report:
@@ -243,7 +243,7 @@
 * **Visualization of predictions on a piece of test data set:**
 
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/test_data.png" />
+	  <img src="https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/media/test_data.png" />
 	</p>
 	
   	
