@@ -7,7 +7,7 @@
 ### **For Running the script follow the [instructions here](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/README.md#instructions-to-run-the-script) or run the same using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NT3deC4z0B6B1Z7L_-MWMvVzBjH2Yz3n?usp=sharing)**
 *Change the hyper parameters in ```constants.py```*
 
-1. [Input Pipeline]()- 
+1. [Input Pipeline](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/input_pipeline/notes.py)
     * [HAPT Dataset](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) (Training set- Users(1-21), Test set-Users(22-27), validation set-Users(28-30)
     * Data Denoising
     * Z Score normalization
