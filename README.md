@@ -2,9 +2,9 @@
 	Human Activity Recognition Using LSTM
 </h1>
 
-### *Paper*: [Human Activity Recognition Using LSTM](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/paper_HumanActivityRecognition.pdf)
+### *Paper*: [Human Activity Recognition Using LSTM](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/paper_HumanActivityRecognition.pdf)
 
-### **For Running the script follow the [instructions here](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/README.md#instructions-to-run-the-script) or run the same using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NT3deC4z0B6B1Z7L_-MWMvVzBjH2Yz3n?usp=sharing)**
+### **For Running the script follow the [instructions here](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/README.md#instructions-to-run-the-script) or run the same using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NT3deC4z0B6B1Z7L_-MWMvVzBjH2Yz3n?usp=sharing)**
 *Change the hyper parameters in ```constants.py```*
 
 1. [Input Pipeline]()- 
@@ -248,7 +248,7 @@
 	
   	
 ## Instructions to run the script:
-Before running the script Install the [requirments](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
+Before running the script Install the [requirments](https://github.com/sgaruda-sudo/Human-Activity-Recognition/blob/master/requirements.txt) from ```requirements.txt``` using ```pip install -r requirements.txt```
 
 * **Make the following changes in main.py based on the Mode(training mode, hyper parameter tuning mode, finetuning mode, evaluation mode) you want you the script to run in**
 
